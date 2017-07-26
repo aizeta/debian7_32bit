@@ -90,7 +90,7 @@ wget -O /etc/openvpn/client.ovpn "https://raw.githubusercontent.com/nifira123/de
 sed -i $MYIP2 /etc/openvpn/client.ovpn;
 cp client.ovpn /home/vps/public_html/
 
-cdhttps://raw.githubusercontent.com/nifira123/debian7_32bit/naura
+cd
 # install badvpn
 wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/nifira123/debian7_32bit/naura/badvpn-udpgw"
 if [ "$OS" == "x86_64" ]; then
